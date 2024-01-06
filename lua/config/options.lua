@@ -29,6 +29,7 @@ vim.opt.path:append({ "**" }) -- Finding files - Search down into subfolders
 vim.opt.wildignore:append({ "*/node_modules/*" })
 vim.opt.splitbelow = true -- Put new windows below current
 vim.opt.splitright = true -- Put new windows right of current
+vim.opt.laststatus = 3
 
 -- Undercurl
 vim.cmd([[let &t_Cs = "\e[4:3m"]])
